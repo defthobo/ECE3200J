@@ -122,7 +122,7 @@ def p3_7():
     print(J)
 
 def main():
-    p3_4()
+    p3_3()
 
 if __name__ == '__main__':
     main()
