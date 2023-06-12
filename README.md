@@ -1,8 +1,38 @@
 # ECE3200J
 
-`notes.ipynb` may help you with your exam
+`notes.ipynb` contains important concepts and formulas that are useful during the exam.
 
-`calculator.py` is the one I created when doing the homework
 
+`calculator.py` is used as homework draft.
+
+**Recently Updated: 13:00, June 12**
 ## Install
-`pip install -r requirements.txt`
+
+### Virtual Environment
+
+Create a virtual environment:
+
+```
+python3 -m venv env
+```
+
+Activate the virtual environment
+
+```
+source env/bin/activate
+```
+
+Deactivate the virtual environmen
+```
+deactivate
+```
+
+### Install Dependencies
+
+If you are using the virtual environment, do not forget to activate it first.
+
+Install the dependencies from `requirements.txt`
+```
+pip install -r requirements.txt
+```
+
