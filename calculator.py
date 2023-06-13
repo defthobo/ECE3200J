@@ -115,14 +115,14 @@ def p3_6():
     print(delta)
 
 def p3_7():
-    x = np.array((0, -12))
+    x = np.array((0, -12) ,dtype=int)
     x = x * 1e-4
     L = 12e-4
     J = - const.e * 10 * 1e15 * (2*x/pow(L, 2) + 2 / L)
     print(J)
 
 def main():
-    p3_3()
+    p3_7()
 
 if __name__ == '__main__':
     main()
