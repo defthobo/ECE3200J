@@ -98,7 +98,7 @@ def p3_4():
     print(f"{N_a:e}")
 
 def p3_5():
-    sigma = const.e * 300 * 2e17
+    sigma = const.e * 200 * 3.2e17
     print(sigma, f"{1/ sigma:e}")
 
 def p3_6():
@@ -122,7 +122,7 @@ def p3_7():
     print(J)
 
 def main():
-    p3_3()
+    p3_6()
 
 if __name__ == '__main__':
     main()
