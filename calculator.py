@@ -121,8 +121,12 @@ def p3_7():
     J = - const.e * 10 * 1e15 * (2*x/pow(L, 2) + 2 / L)
     print(J)
 
+def p4_6():
+    J = const.e * 10 * 1e15 / math.sqrt(1e-5) * math.exp(- 1e-3 / math.sqrt(1e-5))
+    print(f"{J:e}")
+
 def main():
-    p3_6()
+    p4_6()
 
 if __name__ == '__main__':
     main()
