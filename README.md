@@ -5,7 +5,7 @@
 
 `calculator.py` is used as homework draft.
 
-**Recently Updated: 13:00, June 12**
+**Recently Updated: 23:20, July 9**
 ## Install
 
 ### Virtual Environment
